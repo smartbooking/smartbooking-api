@@ -5,23 +5,42 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
-
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
+log/*
+tmp/*
+doc/*
 !/log/.keep
 !/tmp/.keep
 
-# Ignore uploaded files in development
-/storage/*
-!/storage/.keep
-
+# Ignore bugs log
 .byebug_history
 
-# Ignore master key for decrypting credentials and more.
-/config/master.key
+# Ignore tests folders
+.DS_Store
+coverage/
+coverage
+
+# Ignore public files
+public/tmp
+public/uploads
+public/templates
+
+# Ignore databases
+*.rdb
+latest.dump
+
+# Ignore editors files
+.vscode
+.idea
+
+# Ignore variables
+config/application.yml
+
+# Ignored Awesome print config due to Heroku deploy problems
+config/initializers/awesome_print.rb
+
+# Cache and node modules
+.cache/*
+node_modules/*
