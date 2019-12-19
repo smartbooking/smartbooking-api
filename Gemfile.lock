@@ -65,7 +65,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jaro_winkler (1.5.1-x86_64-darwin-17)
+    jaro_winkler (1.5.1)
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -96,7 +96,7 @@ GEM
     pg (1.1.4)
     powerpack (0.1.2)
     puma (3.12.1)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.3)
@@ -201,7 +201,6 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
-  tzinfo-data
 
 RUBY VERSION
    ruby 2.5.1p57
